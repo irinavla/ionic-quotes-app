@@ -1,0 +1,9 @@
+page-quotes {
+    .author {
+        color: #ccc;
+        font-size:75%;
+        &:before {
+            content: '– ';
+        }
+    }
+}
